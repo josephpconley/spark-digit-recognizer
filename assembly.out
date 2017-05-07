@@ -1,0 +1,1500 @@
+[0m[[0minfo[0m] [0mLoading global plugins from /home/jconley/.sbt/0.13/plugins[0m
+[0m[[0minfo[0m] [0mUpdating {file:/home/jconley/.sbt/0.13/plugins/}global-plugins...[0m
+[0m[[0minfo[0m] [0mResolving com.jsuereth#sbt-pgp;1.0.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.jsuereth#pgp-library_2.10;1.0.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.6 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.bouncycastle#bcpg-jdk15on;1.51 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.bouncycastle#bcprov-jdk15on;1.51 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving net.databinder#dispatch-http_2.10;0.8.10 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving net.databinder#dispatch-core_2.10;0.8.10 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.httpcomponents#httpclient;4.1.3 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.httpcomponents#httpcore;4.1.4 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving commons-logging#commons-logging;1.1.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving commons-codec#commons-codec;1.4 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving net.databinder#dispatch-futures_2.10;0.8.10 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-actors;2.10.6 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#sbt;0.13.15 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#main;0.13.15 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#actions;0.13.15 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#classpath;0.13.15 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.10.6 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.10.6 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#interface;0.13.15 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#io;0.13.15 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#control;0.13.15 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#launcher-interface;1.0.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#completion;0.13.15 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#collections;0.13.15 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving jline#jline;2.14.3 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#api;0.13.15 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#classfile;0.13.15 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#logging;0.13.15 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#process;0.13.15 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#compiler-integration;0.13.15 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#incremental-compiler;0.13.15 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#relation;0.13.15 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#compile;0.13.15 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#persist;0.13.15 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-tools.sbinary#sbinary_2.10;0.4.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#compiler-ivy-integration;0.13.15 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#ivy;0.13.15 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#cross;0.13.15 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt.ivy#ivy;2.3.0-sbt-48dd0744422128446aee9ac31aa356ee203cc9f4 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.jcraft#jsch;0.1.50 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#serialization_2.10;0.1.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-pickling_2.10;0.10.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scalamacros#quasiquotes_2.10;2.0.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.json4s#json4s-core_2.10;3.2.10 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.json4s#json4s-ast_2.10;3.2.10 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.thoughtworks.paranamer#paranamer;2.6 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.spire-math#jawn-parser_2.10;0.6.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.spire-math#json4s-support_2.10;0.6.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#run;0.13.15 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#task-system;0.13.15 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#tasks;0.13.15 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#tracking;0.13.15 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#cache;0.13.15 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#testing;0.13.15 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#test-agent;0.13.15 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#test-interface;1.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#main-settings;0.13.15 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#apply-macro;0.13.15 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#command;0.13.15 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#template-resolver;0.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#logic;0.13.15 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#compiler-interface;0.13.15 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-lang#jline;2.10.6 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.fusesource.jansi#jansi;1.4 ...[0m
+[0m[[0minfo[0m] [0mDone updating.[0m
+[0m[[0minfo[0m] [0mLoading project definition from /home/jconley/workspace/joec/spark-digit-recognizer/project[0m
+[0m[[0minfo[0m] [0mUpdating {file:/home/jconley/workspace/joec/spark-digit-recognizer/project/}spark-digit-recognizer-build...[0m
+[0m[[0minfo[0m] [0mResolving org.scala-sbt#global-plugins;0.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.jsuereth#sbt-pgp;1.0.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.jsuereth#pgp-library_2.10;1.0.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.6 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.bouncycastle#bcpg-jdk15on;1.51 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.bouncycastle#bcprov-jdk15on;1.51 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving net.databinder#dispatch-http_2.10;0.8.10 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving net.databinder#dispatch-core_2.10;0.8.10 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.httpcomponents#httpclient;4.1.3 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.httpcomponents#httpcore;4.1.4 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving commons-logging#commons-logging;1.1.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving commons-codec#commons-codec;1.4 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving net.databinder#dispatch-futures_2.10;0.8.10 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-actors;2.10.6 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.github.gseitz#sbt-release;1.0.4 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.eed3si9n#sbt-assembly;0.14.3 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scalactic#scalactic_2.10;2.2.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.10.6 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.pantsbuild#jarjar;1.6.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.ant#ant;1.9.6 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.ant#ant-launcher;1.9.6 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.ow2.asm#asm;5.0.4 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.ow2.asm#asm-commons;5.0.4 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.ow2.asm#asm-tree;5.0.4 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.maven#maven-plugin-api;3.3.3 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.maven#maven-model;3.3.3 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.codehaus.plexus#plexus-utils;3.0.20 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.maven#maven-artifact;3.3.3 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.eclipse.sisu#org.eclipse.sisu.plexus;0.3.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving javax.enterprise#cdi-api;1.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving javax.annotation#jsr250-api;1.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving javax.inject#javax.inject;1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.eclipse.sisu#org.eclipse.sisu.inject;0.3.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.codehaus.plexus#plexus-component-annotations;1.5.5 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.codehaus.plexus#plexus-classworlds;2.5.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#sbt;0.13.15 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#main;0.13.15 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#actions;0.13.15 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#classpath;0.13.15 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.10.6 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#interface;0.13.15 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#io;0.13.15 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#control;0.13.15 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#launcher-interface;1.0.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#completion;0.13.15 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#collections;0.13.15 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving jline#jline;2.14.3 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#api;0.13.15 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#classfile;0.13.15 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#logging;0.13.15 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#process;0.13.15 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#compiler-integration;0.13.15 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#incremental-compiler;0.13.15 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#relation;0.13.15 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#compile;0.13.15 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#persist;0.13.15 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-tools.sbinary#sbinary_2.10;0.4.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#compiler-ivy-integration;0.13.15 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#ivy;0.13.15 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#cross;0.13.15 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt.ivy#ivy;2.3.0-sbt-48dd0744422128446aee9ac31aa356ee203cc9f4 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.jcraft#jsch;0.1.50 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#serialization_2.10;0.1.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-pickling_2.10;0.10.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scalamacros#quasiquotes_2.10;2.0.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.json4s#json4s-core_2.10;3.2.10 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.json4s#json4s-ast_2.10;3.2.10 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.thoughtworks.paranamer#paranamer;2.6 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.spire-math#jawn-parser_2.10;0.6.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.spire-math#json4s-support_2.10;0.6.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#run;0.13.15 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#task-system;0.13.15 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#tasks;0.13.15 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#tracking;0.13.15 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#cache;0.13.15 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#testing;0.13.15 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#test-agent;0.13.15 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#test-interface;1.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#main-settings;0.13.15 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#apply-macro;0.13.15 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#command;0.13.15 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#template-resolver;0.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#logic;0.13.15 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#compiler-interface;0.13.15 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-lang#jline;2.10.6 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.fusesource.jansi#jansi;1.4 ...[0m
+[0m[[0minfo[0m] [0mDone updating.[0m
+[0m[[0minfo[0m] [0mSet current project to spark-digital-recognizer (in build file:/home/jconley/workspace/joec/spark-digit-recognizer/)[0m
+[0m[[0minfo[0m] [0mUpdating {file:/home/jconley/workspace/joec/spark-digit-recognizer/}mainRunner...[0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving spark-digital-recognizer#spark-digital-recognizer_2.11;1.0.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving joda-time#joda-time;2.9.9 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-core_2.11;2.1.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-core_2.11;2.1.1 ...[0m
+[0m[[33mwarn[0m] [0mMultiple main classes detected.  Run 'show discoveredMainClasses' to see the list[0m
+[0m[[0minfo[0m] [0mIncluding from cache: joda-time-2.9.9.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: scala-library-2.11.8.jar[0m
+[0m[[0minfo[0m] [0mChecking every *.class/*.jar file's SHA-1.[0m
+[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.11;2.1.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.11;2.1.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache#apache;14 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.avro#avro-mapred;1.7.7 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.avro#avro-ipc;1.7.7 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.avro#avro;1.7.7 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.codehaus.jackson#jackson-core-asl;1.9.13 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.codehaus.jackson#jackson-mapper-asl;1.9.13 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.thoughtworks.paranamer#paranamer;2.3 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.commons#commons-compress;1.4.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.tukaani#xz;1.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.twitter#chill_2.11;0.8.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.twitter#chill-java;0.8.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.esotericsoftware#kryo-shaded;3.0.3 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.esotericsoftware#minlog;1.3.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.objenesis#objenesis;2.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.xbean#xbean-asm5-shaded;4.4 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-client;2.2.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-common;2.2.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-annotations;2.2.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.google.guava#guava;11.0.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.google.code.findbugs#jsr305;1.3.9 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving commons-cli#commons-cli;1.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.commons#commons-math;2.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving xmlenc#xmlenc;0.52 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving commons-httpclient#commons-httpclient;3.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving commons-codec#commons-codec;1.4 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving commons-io#commons-io;2.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving log4j#log4j;1.2.17 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving commons-lang#commons-lang;2.5 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving commons-configuration#commons-configuration;1.6 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving commons-collections#commons-collections;3.2.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving commons-digester#commons-digester;1.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving commons-beanutils#commons-beanutils;1.7.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving commons-beanutils#commons-beanutils-core;1.8.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.google.protobuf#protobuf-java;2.5.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-auth;2.2.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-hdfs;2.2.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.mortbay.jetty#jetty-util;6.1.26 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-yarn-common;2.2.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-yarn-api;2.2.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.google.inject#guice;3.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving javax.inject#javax.inject;1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving aopalliance#aopalliance;1.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.sonatype.sisu.inject#cglib;2.2.1-v20090111 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-yarn-client;2.2.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-mapreduce-client-core;2.2.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-yarn-server-common;2.2.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-launcher_2.11;2.1.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-launcher_2.11;2.1.1 ...[0m
+[0m[[0minfo[0m] [0mMerging files...[0m
+[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.11;2.1.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-tags_2.11;2.1.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-tags_2.11;2.1.1 ...[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/MANIFEST.MF' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/joda-time/joda-time/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/joda-time/joda-time/pom.xml' with strategy 'discard'[0m
+[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.11;2.1.1 ...[0m
+[0m[[33mwarn[0m] [0mStrategy 'discard' was applied to 3 files[0m
+[0m[[0minfo[0m] [0mResolving org.spark-project.spark#unused;1.0.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-network-common_2.11;2.1.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-network-common_2.11;2.1.1 ...[0m
+[0m[[0minfo[0m] [0mAssembly up to date: /home/jconley/workspace/joec/spark-digit-recognizer/target/scala-2.11/spark-digital-recognizer-assembly-1.0.0.jar[0m
+[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.11;2.1.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving io.netty#netty-all;4.0.42.Final ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.commons#commons-lang3;3.5 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.fusesource.leveldbjni#leveldbjni-all;1.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.fasterxml.jackson.core#jackson-databind;2.6.5 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.fasterxml.jackson.core#jackson-core;2.6.5 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.fasterxml.jackson.core#jackson-annotations;2.6.5 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-network-shuffle_2.11;2.1.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-network-shuffle_2.11;2.1.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.11;2.1.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving io.dropwizard.metrics#metrics-core;3.1.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-unsafe_2.11;2.1.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-unsafe_2.11;2.1.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.11;2.1.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving net.java.dev.jets3t#jets3t;0.7.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.curator#curator-recipes;2.4.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.curator#curator-framework;2.4.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.curator#curator-client;2.4.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.zookeeper#zookeeper;3.4.5 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.google.guava#guava;14.0.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving javax.servlet#javax.servlet-api;3.1.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.commons#commons-math3;3.4.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-api;1.7.16 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.slf4j#jul-to-slf4j;1.7.16 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.slf4j#jcl-over-slf4j;1.7.16 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-log4j12;1.7.16 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.ning#compress-lzf;1.0.3 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.xerial.snappy#snappy-java;1.1.2.6 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving net.jpountz.lz4#lz4;1.3.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.roaringbitmap#RoaringBitmap;0.5.11 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving commons-net#commons-net;2.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.json4s#json4s-jackson_2.11;3.2.11 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.json4s#json4s-core_2.11;3.2.11 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.json4s#json4s-ast_2.11;3.2.11 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.thoughtworks.paranamer#paranamer;2.6 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-lang#scalap;2.11.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.11.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.11.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-xml_2.11;1.0.4 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.glassfish.jersey.core#jersey-client;2.22.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving javax.ws.rs#javax.ws.rs-api;2.0.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.glassfish.jersey.core#jersey-common;2.22.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving javax.annotation#javax.annotation-api;1.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.glassfish.jersey.bundles.repackaged#jersey-guava;2.22.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.glassfish.hk2#hk2-api;2.4.0-b34 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.glassfish.hk2#hk2-utils;2.4.0-b34 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.glassfish.hk2.external#aopalliance-repackaged;2.4.0-b34 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.glassfish.hk2.external#javax.inject;2.4.0-b34 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.glassfish.hk2#hk2-locator;2.4.0-b34 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.javassist#javassist;3.18.1-GA ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.glassfish.hk2#osgi-resource-locator;1.0.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.glassfish.jersey.core#jersey-server;2.22.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.glassfish.jersey.media#jersey-media-jaxb;2.22.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving javax.validation#validation-api;1.1.0.Final ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.glassfish.jersey.containers#jersey-container-servlet;2.22.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.glassfish.jersey.containers#jersey-container-servlet-core;2.22.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving io.netty#netty;3.8.0.Final ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.clearspring.analytics#stream;2.7.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving io.dropwizard.metrics#metrics-jvm;3.1.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving io.dropwizard.metrics#metrics-json;3.1.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving io.dropwizard.metrics#metrics-graphite;3.1.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.fasterxml.jackson.module#jackson-module-scala_2.11;2.6.5 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.fasterxml.jackson.module#jackson-module-paranamer;2.6.5 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.ivy#ivy;2.4.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving oro#oro;2.0.8 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving net.razorvine#pyrolite;4.13 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving net.sf.py4j#py4j;0.10.4 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.commons#commons-crypto;1.0.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-sql_2.11;2.1.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-sql_2.11;2.1.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.11;2.1.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.univocity#univocity-parsers;2.2.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-sketch_2.11;2.1.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-sketch_2.11;2.1.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.11;2.1.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-catalyst_2.11;2.1.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-catalyst_2.11;2.1.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.11;2.1.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.codehaus.janino#janino;3.0.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.codehaus.janino#commons-compiler;3.0.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.antlr#antlr4-runtime;4.5.3 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving commons-codec#commons-codec;1.10 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.parquet#parquet-column;1.8.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.parquet#parquet-common;1.8.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.parquet#parquet-encoding;1.8.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.parquet#parquet-hadoop;1.8.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.parquet#parquet-format;2.3.0-incubating ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.parquet#parquet-jackson;1.8.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-mllib_2.11;2.1.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-mllib_2.11;2.1.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.11;2.1.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-streaming_2.11;2.1.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-streaming_2.11;2.1.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.11;2.1.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-graphx_2.11;2.1.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-graphx_2.11;2.1.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.11;2.1.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-mllib-local_2.11;2.1.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-mllib-local_2.11;2.1.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.11;2.1.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scalanlp#breeze_2.11;0.12 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scalanlp#breeze-macros_2.11;0.12 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.github.fommil.netlib#core;1.1.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving net.sourceforge.f2j#arpack_combined_all;0.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving net.sf.opencsv#opencsv;2.3 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.github.rwl#jtransforms;2.4.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.spire-math#spire_2.11;0.7.4 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.spire-math#spire-macros_2.11;0.7.4 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.chuusai#shapeless_2.11;2.0.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.jpmml#pmml-model;1.2.15 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.jpmml#pmml-schema;1.2.15 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving jline#jline;2.12.1 ...[0m
+[0m[[0minfo[0m] [0mDone updating.[0m
+[0m[[0minfo[0m] [0mIncluding from cache: spark-launcher_2.11-2.1.1.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: spark-tags_2.11-2.1.1.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: metrics-graphite-3.1.2.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: unused-1.0.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: javax.servlet-api-3.1.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: parquet-encoding-1.8.1.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: guice-3.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: jackson-module-scala_2.11-2.6.5.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: javax.inject-1.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: jackson-module-paranamer-2.6.5.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: parquet-hadoop-1.8.1.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: aopalliance-1.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: jackson-core-2.6.5.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: spark-network-shuffle_2.11-2.1.1.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: cglib-2.2.1-v20090111.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: metrics-core-3.1.2.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: commons-math3-3.4.1.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: spark-unsafe_2.11-2.1.1.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: parquet-format-2.3.0-incubating.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: jul-to-slf4j-1.7.16.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: jcl-over-slf4j-1.7.16.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: compress-lzf-1.0.3.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: jets3t-0.7.1.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: protobuf-java-2.5.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: lz4-1.3.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: hadoop-auth-2.2.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: curator-recipes-2.4.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: RoaringBitmap-0.5.11.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: parquet-jackson-1.8.1.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: curator-framework-2.4.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: curator-client-2.4.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: ivy-2.4.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: oro-2.0.8.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: zookeeper-3.4.5.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: pyrolite-4.13.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: py4j-0.10.4.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: json4s-jackson_2.11-3.2.11.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: commons-crypto-1.0.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: scala-library-2.11.8.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: hadoop-yarn-client-2.2.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: spark-network-common_2.11-2.1.1.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: json4s-core_2.11-3.2.11.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: json4s-ast_2.11-3.2.11.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: paranamer-2.6.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: guava-14.0.1.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: univocity-parsers-2.2.1.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: spark-sketch_2.11-2.1.1.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: hadoop-mapreduce-client-core-2.2.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: joda-time-2.9.9.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: scalap-2.11.8.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: netty-all-4.0.42.Final.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: hadoop-yarn-server-common-2.2.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: hadoop-mapreduce-client-shuffle-2.2.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: hadoop-hdfs-2.2.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: hadoop-mapreduce-client-jobclient-2.2.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: jetty-util-6.1.26.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: commons-lang3-3.5.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: hadoop-mapreduce-client-app-2.2.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: xbean-asm5-shaded-4.4.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: hadoop-client-2.2.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: spark-mllib_2.11-2.1.1.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: hadoop-mapreduce-client-common-2.2.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: leveldbjni-all-1.8.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: spark-sql_2.11-2.1.1.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: commons-compiler-3.0.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: antlr4-runtime-4.5.3.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: jackson-databind-2.6.5.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: jackson-annotations-2.6.5.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: commons-codec-1.10.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: spark-streaming_2.11-2.1.1.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: jersey-common-2.22.2.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: javax.annotation-api-1.2.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: parquet-column-1.8.1.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: parquet-common-1.8.1.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: spark-graphx_2.11-2.1.1.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: spark-mllib-local_2.11-2.1.1.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: hadoop-common-2.2.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: hadoop-annotations-2.2.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: jsr305-1.3.9.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: jersey-guava-2.22.2.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: commons-cli-1.2.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: hk2-api-2.4.0-b34.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: hk2-utils-2.4.0-b34.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: aopalliance-repackaged-2.4.0-b34.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: javax.inject-2.4.0-b34.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: spark-catalyst_2.11-2.1.1.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: hadoop-yarn-common-2.2.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: hk2-locator-2.4.0-b34.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: commons-math-2.1.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: xmlenc-0.52.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: commons-httpclient-3.1.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: janino-3.0.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: commons-io-2.1.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: javassist-3.18.1-GA.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: breeze-macros_2.11-0.12.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: osgi-resource-locator-1.0.1.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: commons-net-2.2.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: core-1.1.2.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: log4j-1.2.17.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: hadoop-yarn-api-2.2.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: slf4j-log4j12-1.7.16.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: jersey-server-2.22.2.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: commons-lang-2.5.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: jersey-media-jaxb-2.22.2.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: validation-api-1.1.0.Final.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: commons-configuration-1.6.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: arpack_combined_all-0.1.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: jersey-container-servlet-2.22.2.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: opencsv-2.3.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: jersey-container-servlet-core-2.22.2.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: snappy-java-1.1.2.6.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: jtransforms-2.4.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: commons-compress-1.4.1.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: xz-1.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: commons-collections-3.2.1.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: commons-digester-1.8.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: netty-3.8.0.Final.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: commons-beanutils-1.7.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: stream-2.7.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: slf4j-api-1.7.16.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: metrics-jvm-3.1.2.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: metrics-json-3.1.2.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: chill_2.11-0.8.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: chill-java-0.8.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: commons-beanutils-core-1.8.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: avro-ipc-1.7.7.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: avro-ipc-1.7.7-tests.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: avro-1.7.7.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: jackson-core-asl-1.9.13.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: kryo-shaded-3.0.3.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: minlog-1.3.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: objenesis-2.1.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: jackson-mapper-asl-1.9.13.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: spark-core_2.11-2.1.1.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: avro-mapred-1.7.7-hadoop2.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: scala-compiler-2.11.8.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: spire_2.11-0.7.4.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: spire-macros_2.11-0.7.4.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: breeze_2.11-0.12.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: shapeless_2.11-2.0.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: pmml-model-1.2.15.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: pmml-schema-1.2.15.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: scala-reflect-2.11.8.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: scala-xml_2.11-1.0.4.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: scala-parser-combinators_2.11-1.0.4.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: jersey-client-2.22.2.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: javax.ws.rs-api-2.0.1.jar[0m
+[0m[[0minfo[0m] [0mChecking every *.class/*.jar file's SHA-1.[0m
+[0m[[0minfo[0m] [0mMerging files...[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/DEPENDENCIES' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/DUMMY.DSA' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/DUMMY.SF' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/INDEX.LIST' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/MANIFEST.MF' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/com.clearspring.analytics/stream/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/com.clearspring.analytics/stream/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/com.esotericsoftware/kryo-shaded/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/com.esotericsoftware/kryo-shaded/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/com.esotericsoftware/minlog/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/com.esotericsoftware/minlog/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/com.esotericsoftware/reflectasm/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/com.esotericsoftware/reflectasm/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/com.fasterxml.jackson.core/jackson-annotations/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/com.fasterxml.jackson.core/jackson-annotations/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/com.fasterxml.jackson.core/jackson-core/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/com.fasterxml.jackson.core/jackson-core/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/com.fasterxml.jackson.core/jackson-databind/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/com.fasterxml.jackson.core/jackson-databind/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/com.fasterxml.jackson.module/jackson-module-paranamer/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/com.fasterxml.jackson.module/jackson-module-paranamer/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/com.github.fommil.netlib/core/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/com.github.fommil.netlib/core/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/com.github.rwl/jtransforms/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/com.github.rwl/jtransforms/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/com.google.guava/guava/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/com.google.guava/guava/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/com.google.protobuf/protobuf-java/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/com.google.protobuf/protobuf-java/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/com.ning/compress-lzf/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/com.ning/compress-lzf/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/com.thoughtworks.paranamer/paranamer/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/com.thoughtworks.paranamer/paranamer/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/com.univocity/univocity-parsers/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/com.univocity/univocity-parsers/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/commons-cli/commons-cli/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/commons-cli/commons-cli/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/commons-codec/commons-codec/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/commons-codec/commons-codec/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/commons-collections/commons-collections/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/commons-collections/commons-collections/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/commons-configuration/commons-configuration/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/commons-configuration/commons-configuration/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/commons-io/commons-io/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/commons-io/commons-io/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/commons-lang/commons-lang/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/commons-lang/commons-lang/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/commons-net/commons-net/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/commons-net/commons-net/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/io.dropwizard.metrics/metrics-core/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/io.dropwizard.metrics/metrics-core/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/io.dropwizard.metrics/metrics-graphite/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/io.dropwizard.metrics/metrics-graphite/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/io.dropwizard.metrics/metrics-json/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/io.dropwizard.metrics/metrics-json/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/io.dropwizard.metrics/metrics-jvm/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/io.dropwizard.metrics/metrics-jvm/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/io.netty/netty-all/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/io.netty/netty-all/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/io.netty/netty/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/io.netty/netty/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/javax.annotation/javax.annotation-api/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/javax.annotation/javax.annotation-api/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/javax.servlet/javax.servlet-api/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/javax.servlet/javax.servlet-api/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/javax.validation/validation-api/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/javax.validation/validation-api/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/javax.ws.rs/javax.ws.rs-api/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/javax.ws.rs/javax.ws.rs-api/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/jline/jline/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/jline/jline/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/joda-time/joda-time/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/joda-time/joda-time/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/log4j/log4j/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/log4j/log4j/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/net.razorvine/pyrolite/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/net.razorvine/pyrolite/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/net.sf.opencsv/opencsv/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/net.sf.opencsv/opencsv/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/net.sf.py4j/py4j/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/net.sf.py4j/py4j/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.antlr/antlr4-runtime/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.antlr/antlr4-runtime/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.avro/avro-ipc/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.avro/avro-ipc/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.avro/avro-mapred/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.avro/avro-mapred/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.avro/avro/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.avro/avro/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.commons/commons-compress/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.commons/commons-compress/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.commons/commons-crypto/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.commons/commons-crypto/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.commons/commons-lang3/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.commons/commons-lang3/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.commons/commons-math/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.commons/commons-math/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.commons/commons-math3/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.commons/commons-math3/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.curator/curator-client/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.curator/curator-client/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.curator/curator-framework/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.curator/curator-framework/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.curator/curator-recipes/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.curator/curator-recipes/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.hadoop/hadoop-annotations/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.hadoop/hadoop-annotations/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.hadoop/hadoop-auth/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.hadoop/hadoop-auth/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.hadoop/hadoop-client/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.hadoop/hadoop-client/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.hadoop/hadoop-common/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.hadoop/hadoop-common/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.hadoop/hadoop-hdfs/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.hadoop/hadoop-hdfs/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.hadoop/hadoop-mapreduce-client-app/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.hadoop/hadoop-mapreduce-client-app/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.hadoop/hadoop-mapreduce-client-common/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.hadoop/hadoop-mapreduce-client-common/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.hadoop/hadoop-mapreduce-client-core/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.hadoop/hadoop-mapreduce-client-core/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.hadoop/hadoop-mapreduce-client-jobclient/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.hadoop/hadoop-mapreduce-client-jobclient/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.hadoop/hadoop-mapreduce-client-shuffle/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.hadoop/hadoop-mapreduce-client-shuffle/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.hadoop/hadoop-yarn-api/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.hadoop/hadoop-yarn-api/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.hadoop/hadoop-yarn-client/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.hadoop/hadoop-yarn-client/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.hadoop/hadoop-yarn-common/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.hadoop/hadoop-yarn-common/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.hadoop/hadoop-yarn-server-common/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.hadoop/hadoop-yarn-server-common/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.parquet/parquet-column/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.parquet/parquet-column/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.parquet/parquet-common/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.parquet/parquet-common/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.parquet/parquet-encoding/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.parquet/parquet-encoding/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.parquet/parquet-format/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.parquet/parquet-format/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.parquet/parquet-hadoop/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.parquet/parquet-hadoop/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.parquet/parquet-jackson/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.parquet/parquet-jackson/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.spark/spark-catalyst_2.11/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.spark/spark-catalyst_2.11/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.spark/spark-core_2.11/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.spark/spark-core_2.11/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.spark/spark-graphx_2.11/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.spark/spark-graphx_2.11/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.spark/spark-launcher_2.11/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.spark/spark-launcher_2.11/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.spark/spark-mllib-local_2.11/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.spark/spark-mllib-local_2.11/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.spark/spark-mllib_2.11/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.spark/spark-mllib_2.11/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.spark/spark-network-common_2.11/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.spark/spark-network-common_2.11/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.spark/spark-network-shuffle_2.11/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.spark/spark-network-shuffle_2.11/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.spark/spark-sketch_2.11/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.spark/spark-sketch_2.11/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.spark/spark-sql_2.11/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.spark/spark-sql_2.11/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.spark/spark-streaming_2.11/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.spark/spark-streaming_2.11/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.spark/spark-tags_2.11/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.spark/spark-tags_2.11/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.spark/spark-unsafe_2.11/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.spark/spark-unsafe_2.11/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.xbean/xbean-asm-util/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.xbean/xbean-asm-util/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.xbean/xbean-asm5-shaded/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.xbean/xbean-asm5-shaded/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.eclipse.jetty/jetty-client/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.eclipse.jetty/jetty-client/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.eclipse.jetty/jetty-continuation/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.eclipse.jetty/jetty-continuation/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.eclipse.jetty/jetty-http/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.eclipse.jetty/jetty-http/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.eclipse.jetty/jetty-io/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.eclipse.jetty/jetty-io/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.eclipse.jetty/jetty-plus/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.eclipse.jetty/jetty-plus/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.eclipse.jetty/jetty-proxy/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.eclipse.jetty/jetty-proxy/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.eclipse.jetty/jetty-security/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.eclipse.jetty/jetty-security/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.eclipse.jetty/jetty-server/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.eclipse.jetty/jetty-server/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.eclipse.jetty/jetty-servlet/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.eclipse.jetty/jetty-servlet/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.eclipse.jetty/jetty-servlets/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.eclipse.jetty/jetty-servlets/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.eclipse.jetty/jetty-util/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.eclipse.jetty/jetty-util/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.fusesource.leveldbjni/leveldbjni-all/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.fusesource.leveldbjni/leveldbjni-all/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.glassfish.hk2.external/aopalliance-repackaged/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.glassfish.hk2.external/aopalliance-repackaged/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.glassfish.hk2.external/javax.inject/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.glassfish.hk2.external/javax.inject/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.glassfish.hk2/hk2-api/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.glassfish.hk2/hk2-api/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.glassfish.hk2/hk2-locator/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.glassfish.hk2/hk2-locator/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.glassfish.hk2/hk2-utils/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.glassfish.hk2/hk2-utils/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.glassfish.hk2/osgi-resource-locator/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.glassfish.hk2/osgi-resource-locator/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.glassfish.jersey.bundles.repackaged/jersey-guava/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.glassfish.jersey.bundles.repackaged/jersey-guava/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.glassfish.jersey.containers/jersey-container-servlet-core/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.glassfish.jersey.containers/jersey-container-servlet-core/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.glassfish.jersey.containers/jersey-container-servlet/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.glassfish.jersey.containers/jersey-container-servlet/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.glassfish.jersey.core/jersey-client/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.glassfish.jersey.core/jersey-client/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.glassfish.jersey.core/jersey-common/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.glassfish.jersey.core/jersey-common/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.glassfish.jersey.core/jersey-server/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.glassfish.jersey.core/jersey-server/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.glassfish.jersey.media/jersey-media-jaxb/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.glassfish.jersey.media/jersey-media-jaxb/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.javassist/javassist/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.javassist/javassist/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.jpmml/pmml-model/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.jpmml/pmml-model/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.jpmml/pmml-schema/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.jpmml/pmml-schema/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.jvnet/tiger-types/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.jvnet/tiger-types/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.mortbay.jetty/jetty-util/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.mortbay.jetty/jetty-util/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.roaringbitmap/RoaringBitmap/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.roaringbitmap/RoaringBitmap/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.slf4j/jcl-over-slf4j/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.slf4j/jcl-over-slf4j/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.slf4j/jul-to-slf4j/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.slf4j/jul-to-slf4j/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.slf4j/slf4j-api/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.slf4j/slf4j-api/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.slf4j/slf4j-log4j12/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.slf4j/slf4j-log4j12/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.spark-project.spark/unused/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.spark-project.spark/unused/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/services/com.fasterxml.jackson.databind.Module' with strategy 'filterDistinctLines'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/services/org.apache.hadoop.fs.FileSystem' with strategy 'filterDistinctLines'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/services/org.apache.hadoop.mapreduce.protocol.ClientProtocolProvider' with strategy 'filterDistinctLines'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/services/org.apache.hadoop.security.SecurityInfo' with strategy 'filterDistinctLines'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/services/org.apache.hadoop.security.token.TokenIdentifier' with strategy 'filterDistinctLines'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/services/org.apache.hadoop.security.token.TokenRenewer' with strategy 'filterDistinctLines'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/services/org.apache.spark.sql.sources.DataSourceRegister' with strategy 'filterDistinctLines'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/services/org.glassfish.jersey.internal.spi.ForcedAutoDiscoverable' with strategy 'filterDistinctLines'[0m
+[0m[[33mwarn[0m] [0mMerging 'rootdoc.txt' with strategy 'concat'[0m
+[0m[[31merror[0m] [0m112 errors were encountered during merge[0m
+java.lang.RuntimeException: deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/javax.inject/javax.inject/jars/javax.inject-1.jar:javax/inject/Inject.class
+/home/jconley/.ivy2/cache/org.glassfish.hk2.external/javax.inject/jars/javax.inject-2.4.0-b34.jar:javax/inject/Inject.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/javax.inject/javax.inject/jars/javax.inject-1.jar:javax/inject/Named.class
+/home/jconley/.ivy2/cache/org.glassfish.hk2.external/javax.inject/jars/javax.inject-2.4.0-b34.jar:javax/inject/Named.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/javax.inject/javax.inject/jars/javax.inject-1.jar:javax/inject/Provider.class
+/home/jconley/.ivy2/cache/org.glassfish.hk2.external/javax.inject/jars/javax.inject-2.4.0-b34.jar:javax/inject/Provider.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/javax.inject/javax.inject/jars/javax.inject-1.jar:javax/inject/Qualifier.class
+/home/jconley/.ivy2/cache/org.glassfish.hk2.external/javax.inject/jars/javax.inject-2.4.0-b34.jar:javax/inject/Qualifier.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/javax.inject/javax.inject/jars/javax.inject-1.jar:javax/inject/Scope.class
+/home/jconley/.ivy2/cache/org.glassfish.hk2.external/javax.inject/jars/javax.inject-2.4.0-b34.jar:javax/inject/Scope.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/javax.inject/javax.inject/jars/javax.inject-1.jar:javax/inject/Singleton.class
+/home/jconley/.ivy2/cache/org.glassfish.hk2.external/javax.inject/jars/javax.inject-2.4.0-b34.jar:javax/inject/Singleton.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/aopalliance/aopalliance/jars/aopalliance-1.0.jar:org/aopalliance/aop/Advice.class
+/home/jconley/.ivy2/cache/org.glassfish.hk2.external/aopalliance-repackaged/jars/aopalliance-repackaged-2.4.0-b34.jar:org/aopalliance/aop/Advice.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/aopalliance/aopalliance/jars/aopalliance-1.0.jar:org/aopalliance/aop/AspectException.class
+/home/jconley/.ivy2/cache/org.glassfish.hk2.external/aopalliance-repackaged/jars/aopalliance-repackaged-2.4.0-b34.jar:org/aopalliance/aop/AspectException.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/aopalliance/aopalliance/jars/aopalliance-1.0.jar:org/aopalliance/intercept/ConstructorInterceptor.class
+/home/jconley/.ivy2/cache/org.glassfish.hk2.external/aopalliance-repackaged/jars/aopalliance-repackaged-2.4.0-b34.jar:org/aopalliance/intercept/ConstructorInterceptor.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/aopalliance/aopalliance/jars/aopalliance-1.0.jar:org/aopalliance/intercept/ConstructorInvocation.class
+/home/jconley/.ivy2/cache/org.glassfish.hk2.external/aopalliance-repackaged/jars/aopalliance-repackaged-2.4.0-b34.jar:org/aopalliance/intercept/ConstructorInvocation.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/aopalliance/aopalliance/jars/aopalliance-1.0.jar:org/aopalliance/intercept/Interceptor.class
+/home/jconley/.ivy2/cache/org.glassfish.hk2.external/aopalliance-repackaged/jars/aopalliance-repackaged-2.4.0-b34.jar:org/aopalliance/intercept/Interceptor.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/aopalliance/aopalliance/jars/aopalliance-1.0.jar:org/aopalliance/intercept/Invocation.class
+/home/jconley/.ivy2/cache/org.glassfish.hk2.external/aopalliance-repackaged/jars/aopalliance-repackaged-2.4.0-b34.jar:org/aopalliance/intercept/Invocation.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/aopalliance/aopalliance/jars/aopalliance-1.0.jar:org/aopalliance/intercept/Joinpoint.class
+/home/jconley/.ivy2/cache/org.glassfish.hk2.external/aopalliance-repackaged/jars/aopalliance-repackaged-2.4.0-b34.jar:org/aopalliance/intercept/Joinpoint.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/aopalliance/aopalliance/jars/aopalliance-1.0.jar:org/aopalliance/intercept/MethodInterceptor.class
+/home/jconley/.ivy2/cache/org.glassfish.hk2.external/aopalliance-repackaged/jars/aopalliance-repackaged-2.4.0-b34.jar:org/aopalliance/intercept/MethodInterceptor.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/aopalliance/aopalliance/jars/aopalliance-1.0.jar:org/aopalliance/intercept/MethodInvocation.class
+/home/jconley/.ivy2/cache/org.glassfish.hk2.external/aopalliance-repackaged/jars/aopalliance-repackaged-2.4.0-b34.jar:org/aopalliance/intercept/MethodInvocation.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/BasicDynaBean.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/BasicDynaBean.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/BasicDynaClass.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/BasicDynaClass.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/BeanAccessLanguageException.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/BeanAccessLanguageException.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/BeanUtils.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/BeanUtils.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/BeanUtilsBean$1.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/BeanUtilsBean$1.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/BeanUtilsBean.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/BeanUtilsBean.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/ConstructorUtils.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/ConstructorUtils.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/ContextClassLoaderLocal.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/ContextClassLoaderLocal.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/ConversionException.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/ConversionException.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/ConvertUtils.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/ConvertUtils.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/ConvertUtilsBean.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/ConvertUtilsBean.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/Converter.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/Converter.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/ConvertingWrapDynaBean.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/ConvertingWrapDynaBean.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/DynaBean.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/DynaBean.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/DynaClass.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/DynaClass.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/DynaProperty.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/DynaProperty.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/JDBCDynaClass.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/JDBCDynaClass.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/LazyDynaBean.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/LazyDynaBean.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/LazyDynaClass.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/LazyDynaClass.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/LazyDynaMap.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/LazyDynaMap.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/MappedPropertyDescriptor.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/MappedPropertyDescriptor.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/MethodUtils$MethodDescriptor.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/MethodUtils$MethodDescriptor.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/MethodUtils.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/MethodUtils.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/MutableDynaClass.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/MutableDynaClass.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/NestedNullException.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/NestedNullException.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/PropertyUtils.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/PropertyUtils.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/PropertyUtilsBean.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/PropertyUtilsBean.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/ResultSetDynaClass.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/ResultSetDynaClass.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/ResultSetIterator.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/ResultSetIterator.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/RowSetDynaClass.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/RowSetDynaClass.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/WrapDynaBean.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/WrapDynaBean.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/WrapDynaClass.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/WrapDynaClass.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/converters/AbstractArrayConverter.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/converters/AbstractArrayConverter.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/converters/BigDecimalConverter.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/converters/BigDecimalConverter.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/converters/BigIntegerConverter.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/converters/BigIntegerConverter.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/converters/BooleanArrayConverter.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/converters/BooleanArrayConverter.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/converters/BooleanConverter.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/converters/BooleanConverter.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/converters/ByteArrayConverter.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/converters/ByteArrayConverter.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/converters/ByteConverter.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/converters/ByteConverter.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/converters/CharacterArrayConverter.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/converters/CharacterArrayConverter.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/converters/CharacterConverter.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/converters/CharacterConverter.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/converters/ClassConverter.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/converters/ClassConverter.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/converters/DoubleArrayConverter.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/converters/DoubleArrayConverter.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/converters/DoubleConverter.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/converters/DoubleConverter.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/converters/FileConverter.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/converters/FileConverter.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/converters/FloatArrayConverter.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/converters/FloatArrayConverter.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/converters/FloatConverter.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/converters/FloatConverter.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/converters/IntegerArrayConverter.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/converters/IntegerArrayConverter.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/converters/IntegerConverter.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/converters/IntegerConverter.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/converters/LongArrayConverter.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/converters/LongArrayConverter.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/converters/LongConverter.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/converters/LongConverter.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/converters/ShortArrayConverter.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/converters/ShortArrayConverter.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/converters/ShortConverter.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/converters/ShortConverter.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/converters/SqlDateConverter.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/converters/SqlDateConverter.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/converters/SqlTimeConverter.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/converters/SqlTimeConverter.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/converters/SqlTimestampConverter.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/converters/SqlTimestampConverter.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/converters/StringArrayConverter.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/converters/StringArrayConverter.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/converters/StringConverter.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/converters/StringConverter.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/converters/URLConverter.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/converters/URLConverter.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/locale/BaseLocaleConverter.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/locale/BaseLocaleConverter.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/locale/LocaleBeanUtils$Descriptor.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/locale/LocaleBeanUtils$Descriptor.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/locale/LocaleBeanUtils.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/locale/LocaleBeanUtils.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/locale/LocaleBeanUtilsBean$1.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/locale/LocaleBeanUtilsBean$1.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/locale/LocaleBeanUtilsBean$Descriptor.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/locale/LocaleBeanUtilsBean$Descriptor.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/locale/LocaleBeanUtilsBean.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/locale/LocaleBeanUtilsBean.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/locale/LocaleConvertUtils.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/locale/LocaleConvertUtils.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/locale/LocaleConvertUtilsBean.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/locale/LocaleConvertUtilsBean.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/locale/LocaleConverter.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/locale/LocaleConverter.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/locale/converters/BigDecimalLocaleConverter.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/locale/converters/BigDecimalLocaleConverter.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/locale/converters/BigIntegerLocaleConverter.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/locale/converters/BigIntegerLocaleConverter.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/locale/converters/ByteLocaleConverter.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/locale/converters/ByteLocaleConverter.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/locale/converters/DateLocaleConverter.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/locale/converters/DateLocaleConverter.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/locale/converters/DecimalLocaleConverter.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/locale/converters/DecimalLocaleConverter.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/locale/converters/DoubleLocaleConverter.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/locale/converters/DoubleLocaleConverter.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/locale/converters/FloatLocaleConverter.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/locale/converters/FloatLocaleConverter.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/locale/converters/IntegerLocaleConverter.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/locale/converters/IntegerLocaleConverter.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/locale/converters/LongLocaleConverter.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/locale/converters/LongLocaleConverter.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/locale/converters/ShortLocaleConverter.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/locale/converters/ShortLocaleConverter.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/locale/converters/SqlDateLocaleConverter.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/locale/converters/SqlDateLocaleConverter.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/locale/converters/SqlTimeLocaleConverter.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/locale/converters/SqlTimeLocaleConverter.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/locale/converters/SqlTimestampLocaleConverter.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/locale/converters/SqlTimestampLocaleConverter.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/locale/converters/StringLocaleConverter.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/locale/converters/StringLocaleConverter.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-collections/commons-collections/jars/commons-collections-3.2.1.jar:org/apache/commons/collections/ArrayStack.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/collections/ArrayStack.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/collections/ArrayStack.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-collections/commons-collections/jars/commons-collections-3.2.1.jar:org/apache/commons/collections/Buffer.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/collections/Buffer.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/collections/Buffer.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-collections/commons-collections/jars/commons-collections-3.2.1.jar:org/apache/commons/collections/BufferUnderflowException.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/collections/BufferUnderflowException.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/collections/BufferUnderflowException.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-collections/commons-collections/jars/commons-collections-3.2.1.jar:org/apache/commons/collections/FastHashMap$1.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/collections/FastHashMap$1.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/collections/FastHashMap$1.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-collections/commons-collections/jars/commons-collections-3.2.1.jar:org/apache/commons/collections/FastHashMap$CollectionView$CollectionViewIterator.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/collections/FastHashMap$CollectionView$CollectionViewIterator.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/collections/FastHashMap$CollectionView$CollectionViewIterator.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-collections/commons-collections/jars/commons-collections-3.2.1.jar:org/apache/commons/collections/FastHashMap$CollectionView.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/collections/FastHashMap$CollectionView.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/collections/FastHashMap$CollectionView.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-collections/commons-collections/jars/commons-collections-3.2.1.jar:org/apache/commons/collections/FastHashMap$EntrySet.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/collections/FastHashMap$EntrySet.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/collections/FastHashMap$EntrySet.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-collections/commons-collections/jars/commons-collections-3.2.1.jar:org/apache/commons/collections/FastHashMap$KeySet.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/collections/FastHashMap$KeySet.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/collections/FastHashMap$KeySet.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-collections/commons-collections/jars/commons-collections-3.2.1.jar:org/apache/commons/collections/FastHashMap$Values.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/collections/FastHashMap$Values.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/collections/FastHashMap$Values.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-collections/commons-collections/jars/commons-collections-3.2.1.jar:org/apache/commons/collections/FastHashMap.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/collections/FastHashMap.class
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/collections/FastHashMap.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/org.apache.hadoop/hadoop-yarn-common/jars/hadoop-yarn-common-2.2.0.jar:org/apache/hadoop/yarn/factories/package-info.class
+/home/jconley/.ivy2/cache/org.apache.hadoop/hadoop-yarn-api/jars/hadoop-yarn-api-2.2.0.jar:org/apache/hadoop/yarn/factories/package-info.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/org.apache.hadoop/hadoop-yarn-common/jars/hadoop-yarn-common-2.2.0.jar:org/apache/hadoop/yarn/factory/providers/package-info.class
+/home/jconley/.ivy2/cache/org.apache.hadoop/hadoop-yarn-api/jars/hadoop-yarn-api-2.2.0.jar:org/apache/hadoop/yarn/factory/providers/package-info.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/org.apache.hadoop/hadoop-yarn-common/jars/hadoop-yarn-common-2.2.0.jar:org/apache/hadoop/yarn/util/package-info.class
+/home/jconley/.ivy2/cache/org.apache.hadoop/hadoop-yarn-api/jars/hadoop-yarn-api-2.2.0.jar:org/apache/hadoop/yarn/util/package-info.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/org.apache.spark/spark-core_2.11/jars/spark-core_2.11-2.1.1.jar:org/apache/spark/unused/UnusedStubClass.class
+/home/jconley/.ivy2/cache/org.apache.spark/spark-launcher_2.11/jars/spark-launcher_2.11-2.1.1.jar:org/apache/spark/unused/UnusedStubClass.class
+/home/jconley/.ivy2/cache/org.apache.spark/spark-tags_2.11/jars/spark-tags_2.11-2.1.1.jar:org/apache/spark/unused/UnusedStubClass.class
+/home/jconley/.ivy2/cache/org.spark-project.spark/unused/jars/unused-1.0.0.jar:org/apache/spark/unused/UnusedStubClass.class
+/home/jconley/.ivy2/cache/org.apache.spark/spark-network-common_2.11/jars/spark-network-common_2.11-2.1.1.jar:org/apache/spark/unused/UnusedStubClass.class
+/home/jconley/.ivy2/cache/org.apache.spark/spark-network-shuffle_2.11/jars/spark-network-shuffle_2.11-2.1.1.jar:org/apache/spark/unused/UnusedStubClass.class
+/home/jconley/.ivy2/cache/org.apache.spark/spark-unsafe_2.11/jars/spark-unsafe_2.11-2.1.1.jar:org/apache/spark/unused/UnusedStubClass.class
+/home/jconley/.ivy2/cache/org.apache.spark/spark-sql_2.11/jars/spark-sql_2.11-2.1.1.jar:org/apache/spark/unused/UnusedStubClass.class
+/home/jconley/.ivy2/cache/org.apache.spark/spark-sketch_2.11/jars/spark-sketch_2.11-2.1.1.jar:org/apache/spark/unused/UnusedStubClass.class
+/home/jconley/.ivy2/cache/org.apache.spark/spark-catalyst_2.11/jars/spark-catalyst_2.11-2.1.1.jar:org/apache/spark/unused/UnusedStubClass.class
+/home/jconley/.ivy2/cache/org.apache.spark/spark-mllib_2.11/jars/spark-mllib_2.11-2.1.1.jar:org/apache/spark/unused/UnusedStubClass.class
+/home/jconley/.ivy2/cache/org.apache.spark/spark-streaming_2.11/jars/spark-streaming_2.11-2.1.1.jar:org/apache/spark/unused/UnusedStubClass.class
+/home/jconley/.ivy2/cache/org.apache.spark/spark-graphx_2.11/jars/spark-graphx_2.11-2.1.1.jar:org/apache/spark/unused/UnusedStubClass.class
+/home/jconley/.ivy2/cache/org.apache.spark/spark-mllib-local_2.11/jars/spark-mllib-local_2.11-2.1.1.jar:org/apache/spark/unused/UnusedStubClass.class
+deduplicate: different file contents found in the following:
+/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:overview.html
+/home/jconley/.ivy2/cache/org.codehaus.janino/janino/jars/janino-3.0.0.jar:overview.html
+	at sbtassembly.Assembly$.applyStrategies(Assembly.scala:140)
+	at sbtassembly.Assembly$.x$1$lzycompute$1(Assembly.scala:25)
+	at sbtassembly.Assembly$.x$1$1(Assembly.scala:23)
+	at sbtassembly.Assembly$.stratMapping$lzycompute$1(Assembly.scala:23)
+	at sbtassembly.Assembly$.stratMapping$1(Assembly.scala:23)
+	at sbtassembly.Assembly$.inputs$lzycompute$1(Assembly.scala:67)
+	at sbtassembly.Assembly$.inputs$1(Assembly.scala:57)
+	at sbtassembly.Assembly$.apply(Assembly.scala:83)
+	at sbtassembly.Assembly$$anonfun$assemblyTask$1.apply(Assembly.scala:240)
+	at sbtassembly.Assembly$$anonfun$assemblyTask$1.apply(Assembly.scala:237)
+	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:47)
+	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:40)
+	at sbt.std.Transform$$anon$4.work(System.scala:63)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:228)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:228)
+	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:17)
+	at sbt.Execute.work(Execute.scala:237)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:228)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:228)
+	at sbt.ConcurrentRestrictions$$anon$4$$anonfun$1.apply(ConcurrentRestrictions.scala:159)
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:28)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[0m[[31merror[0m] [0m(mainRunner/*:[31massembly[0m) deduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/javax.inject/javax.inject/jars/javax.inject-1.jar:javax/inject/Inject.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/org.glassfish.hk2.external/javax.inject/jars/javax.inject-2.4.0-b34.jar:javax/inject/Inject.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/javax.inject/javax.inject/jars/javax.inject-1.jar:javax/inject/Named.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/org.glassfish.hk2.external/javax.inject/jars/javax.inject-2.4.0-b34.jar:javax/inject/Named.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/javax.inject/javax.inject/jars/javax.inject-1.jar:javax/inject/Provider.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/org.glassfish.hk2.external/javax.inject/jars/javax.inject-2.4.0-b34.jar:javax/inject/Provider.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/javax.inject/javax.inject/jars/javax.inject-1.jar:javax/inject/Qualifier.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/org.glassfish.hk2.external/javax.inject/jars/javax.inject-2.4.0-b34.jar:javax/inject/Qualifier.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/javax.inject/javax.inject/jars/javax.inject-1.jar:javax/inject/Scope.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/org.glassfish.hk2.external/javax.inject/jars/javax.inject-2.4.0-b34.jar:javax/inject/Scope.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/javax.inject/javax.inject/jars/javax.inject-1.jar:javax/inject/Singleton.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/org.glassfish.hk2.external/javax.inject/jars/javax.inject-2.4.0-b34.jar:javax/inject/Singleton.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/aopalliance/aopalliance/jars/aopalliance-1.0.jar:org/aopalliance/aop/Advice.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/org.glassfish.hk2.external/aopalliance-repackaged/jars/aopalliance-repackaged-2.4.0-b34.jar:org/aopalliance/aop/Advice.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/aopalliance/aopalliance/jars/aopalliance-1.0.jar:org/aopalliance/aop/AspectException.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/org.glassfish.hk2.external/aopalliance-repackaged/jars/aopalliance-repackaged-2.4.0-b34.jar:org/aopalliance/aop/AspectException.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/aopalliance/aopalliance/jars/aopalliance-1.0.jar:org/aopalliance/intercept/ConstructorInterceptor.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/org.glassfish.hk2.external/aopalliance-repackaged/jars/aopalliance-repackaged-2.4.0-b34.jar:org/aopalliance/intercept/ConstructorInterceptor.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/aopalliance/aopalliance/jars/aopalliance-1.0.jar:org/aopalliance/intercept/ConstructorInvocation.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/org.glassfish.hk2.external/aopalliance-repackaged/jars/aopalliance-repackaged-2.4.0-b34.jar:org/aopalliance/intercept/ConstructorInvocation.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/aopalliance/aopalliance/jars/aopalliance-1.0.jar:org/aopalliance/intercept/Interceptor.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/org.glassfish.hk2.external/aopalliance-repackaged/jars/aopalliance-repackaged-2.4.0-b34.jar:org/aopalliance/intercept/Interceptor.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/aopalliance/aopalliance/jars/aopalliance-1.0.jar:org/aopalliance/intercept/Invocation.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/org.glassfish.hk2.external/aopalliance-repackaged/jars/aopalliance-repackaged-2.4.0-b34.jar:org/aopalliance/intercept/Invocation.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/aopalliance/aopalliance/jars/aopalliance-1.0.jar:org/aopalliance/intercept/Joinpoint.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/org.glassfish.hk2.external/aopalliance-repackaged/jars/aopalliance-repackaged-2.4.0-b34.jar:org/aopalliance/intercept/Joinpoint.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/aopalliance/aopalliance/jars/aopalliance-1.0.jar:org/aopalliance/intercept/MethodInterceptor.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/org.glassfish.hk2.external/aopalliance-repackaged/jars/aopalliance-repackaged-2.4.0-b34.jar:org/aopalliance/intercept/MethodInterceptor.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/aopalliance/aopalliance/jars/aopalliance-1.0.jar:org/aopalliance/intercept/MethodInvocation.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/org.glassfish.hk2.external/aopalliance-repackaged/jars/aopalliance-repackaged-2.4.0-b34.jar:org/aopalliance/intercept/MethodInvocation.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/BasicDynaBean.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/BasicDynaBean.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/BasicDynaClass.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/BasicDynaClass.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/BeanAccessLanguageException.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/BeanAccessLanguageException.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/BeanUtils.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/BeanUtils.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/BeanUtilsBean$1.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/BeanUtilsBean$1.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/BeanUtilsBean.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/BeanUtilsBean.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/ConstructorUtils.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/ConstructorUtils.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/ContextClassLoaderLocal.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/ContextClassLoaderLocal.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/ConversionException.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/ConversionException.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/ConvertUtils.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/ConvertUtils.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/ConvertUtilsBean.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/ConvertUtilsBean.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/Converter.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/Converter.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/ConvertingWrapDynaBean.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/ConvertingWrapDynaBean.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/DynaBean.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/DynaBean.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/DynaClass.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/DynaClass.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/DynaProperty.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/DynaProperty.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/JDBCDynaClass.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/JDBCDynaClass.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/LazyDynaBean.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/LazyDynaBean.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/LazyDynaClass.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/LazyDynaClass.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/LazyDynaMap.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/LazyDynaMap.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/MappedPropertyDescriptor.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/MappedPropertyDescriptor.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/MethodUtils$MethodDescriptor.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/MethodUtils$MethodDescriptor.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/MethodUtils.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/MethodUtils.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/MutableDynaClass.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/MutableDynaClass.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/NestedNullException.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/NestedNullException.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/PropertyUtils.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/PropertyUtils.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/PropertyUtilsBean.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/PropertyUtilsBean.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/ResultSetDynaClass.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/ResultSetDynaClass.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/ResultSetIterator.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/ResultSetIterator.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/RowSetDynaClass.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/RowSetDynaClass.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/WrapDynaBean.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/WrapDynaBean.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/WrapDynaClass.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/WrapDynaClass.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/converters/AbstractArrayConverter.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/converters/AbstractArrayConverter.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/converters/BigDecimalConverter.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/converters/BigDecimalConverter.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/converters/BigIntegerConverter.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/converters/BigIntegerConverter.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/converters/BooleanArrayConverter.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/converters/BooleanArrayConverter.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/converters/BooleanConverter.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/converters/BooleanConverter.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/converters/ByteArrayConverter.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/converters/ByteArrayConverter.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/converters/ByteConverter.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/converters/ByteConverter.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/converters/CharacterArrayConverter.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/converters/CharacterArrayConverter.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/converters/CharacterConverter.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/converters/CharacterConverter.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/converters/ClassConverter.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/converters/ClassConverter.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/converters/DoubleArrayConverter.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/converters/DoubleArrayConverter.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/converters/DoubleConverter.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/converters/DoubleConverter.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/converters/FileConverter.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/converters/FileConverter.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/converters/FloatArrayConverter.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/converters/FloatArrayConverter.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/converters/FloatConverter.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/converters/FloatConverter.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/converters/IntegerArrayConverter.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/converters/IntegerArrayConverter.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/converters/IntegerConverter.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/converters/IntegerConverter.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/converters/LongArrayConverter.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/converters/LongArrayConverter.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/converters/LongConverter.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/converters/LongConverter.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/converters/ShortArrayConverter.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/converters/ShortArrayConverter.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/converters/ShortConverter.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/converters/ShortConverter.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/converters/SqlDateConverter.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/converters/SqlDateConverter.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/converters/SqlTimeConverter.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/converters/SqlTimeConverter.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/converters/SqlTimestampConverter.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/converters/SqlTimestampConverter.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/converters/StringArrayConverter.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/converters/StringArrayConverter.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/converters/StringConverter.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/converters/StringConverter.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/converters/URLConverter.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/converters/URLConverter.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/locale/BaseLocaleConverter.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/locale/BaseLocaleConverter.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/locale/LocaleBeanUtils$Descriptor.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/locale/LocaleBeanUtils$Descriptor.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/locale/LocaleBeanUtils.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/locale/LocaleBeanUtils.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/locale/LocaleBeanUtilsBean$1.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/locale/LocaleBeanUtilsBean$1.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/locale/LocaleBeanUtilsBean$Descriptor.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/locale/LocaleBeanUtilsBean$Descriptor.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/locale/LocaleBeanUtilsBean.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/locale/LocaleBeanUtilsBean.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/locale/LocaleConvertUtils.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/locale/LocaleConvertUtils.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/locale/LocaleConvertUtilsBean.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/locale/LocaleConvertUtilsBean.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/locale/LocaleConverter.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/locale/LocaleConverter.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/locale/converters/BigDecimalLocaleConverter.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/locale/converters/BigDecimalLocaleConverter.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/locale/converters/BigIntegerLocaleConverter.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/locale/converters/BigIntegerLocaleConverter.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/locale/converters/ByteLocaleConverter.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/locale/converters/ByteLocaleConverter.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/locale/converters/DateLocaleConverter.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/locale/converters/DateLocaleConverter.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/locale/converters/DecimalLocaleConverter.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/locale/converters/DecimalLocaleConverter.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/locale/converters/DoubleLocaleConverter.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/locale/converters/DoubleLocaleConverter.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/locale/converters/FloatLocaleConverter.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/locale/converters/FloatLocaleConverter.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/locale/converters/IntegerLocaleConverter.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/locale/converters/IntegerLocaleConverter.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/locale/converters/LongLocaleConverter.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/locale/converters/LongLocaleConverter.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/locale/converters/ShortLocaleConverter.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/locale/converters/ShortLocaleConverter.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/locale/converters/SqlDateLocaleConverter.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/locale/converters/SqlDateLocaleConverter.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/locale/converters/SqlTimeLocaleConverter.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/locale/converters/SqlTimeLocaleConverter.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/locale/converters/SqlTimestampLocaleConverter.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/locale/converters/SqlTimestampLocaleConverter.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/beanutils/locale/converters/StringLocaleConverter.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/beanutils/locale/converters/StringLocaleConverter.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-collections/commons-collections/jars/commons-collections-3.2.1.jar:org/apache/commons/collections/ArrayStack.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/collections/ArrayStack.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/collections/ArrayStack.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-collections/commons-collections/jars/commons-collections-3.2.1.jar:org/apache/commons/collections/Buffer.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/collections/Buffer.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/collections/Buffer.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-collections/commons-collections/jars/commons-collections-3.2.1.jar:org/apache/commons/collections/BufferUnderflowException.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/collections/BufferUnderflowException.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/collections/BufferUnderflowException.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-collections/commons-collections/jars/commons-collections-3.2.1.jar:org/apache/commons/collections/FastHashMap$1.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/collections/FastHashMap$1.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/collections/FastHashMap$1.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-collections/commons-collections/jars/commons-collections-3.2.1.jar:org/apache/commons/collections/FastHashMap$CollectionView$CollectionViewIterator.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/collections/FastHashMap$CollectionView$CollectionViewIterator.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/collections/FastHashMap$CollectionView$CollectionViewIterator.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-collections/commons-collections/jars/commons-collections-3.2.1.jar:org/apache/commons/collections/FastHashMap$CollectionView.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/collections/FastHashMap$CollectionView.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/collections/FastHashMap$CollectionView.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-collections/commons-collections/jars/commons-collections-3.2.1.jar:org/apache/commons/collections/FastHashMap$EntrySet.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/collections/FastHashMap$EntrySet.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/collections/FastHashMap$EntrySet.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-collections/commons-collections/jars/commons-collections-3.2.1.jar:org/apache/commons/collections/FastHashMap$KeySet.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/collections/FastHashMap$KeySet.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/collections/FastHashMap$KeySet.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-collections/commons-collections/jars/commons-collections-3.2.1.jar:org/apache/commons/collections/FastHashMap$Values.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/collections/FastHashMap$Values.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/collections/FastHashMap$Values.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-collections/commons-collections/jars/commons-collections-3.2.1.jar:org/apache/commons/collections/FastHashMap.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:org/apache/commons/collections/FastHashMap.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:org/apache/commons/collections/FastHashMap.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/org.apache.hadoop/hadoop-yarn-common/jars/hadoop-yarn-common-2.2.0.jar:org/apache/hadoop/yarn/factories/package-info.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/org.apache.hadoop/hadoop-yarn-api/jars/hadoop-yarn-api-2.2.0.jar:org/apache/hadoop/yarn/factories/package-info.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/org.apache.hadoop/hadoop-yarn-common/jars/hadoop-yarn-common-2.2.0.jar:org/apache/hadoop/yarn/factory/providers/package-info.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/org.apache.hadoop/hadoop-yarn-api/jars/hadoop-yarn-api-2.2.0.jar:org/apache/hadoop/yarn/factory/providers/package-info.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/org.apache.hadoop/hadoop-yarn-common/jars/hadoop-yarn-common-2.2.0.jar:org/apache/hadoop/yarn/util/package-info.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/org.apache.hadoop/hadoop-yarn-api/jars/hadoop-yarn-api-2.2.0.jar:org/apache/hadoop/yarn/util/package-info.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/org.apache.spark/spark-core_2.11/jars/spark-core_2.11-2.1.1.jar:org/apache/spark/unused/UnusedStubClass.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/org.apache.spark/spark-launcher_2.11/jars/spark-launcher_2.11-2.1.1.jar:org/apache/spark/unused/UnusedStubClass.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/org.apache.spark/spark-tags_2.11/jars/spark-tags_2.11-2.1.1.jar:org/apache/spark/unused/UnusedStubClass.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/org.spark-project.spark/unused/jars/unused-1.0.0.jar:org/apache/spark/unused/UnusedStubClass.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/org.apache.spark/spark-network-common_2.11/jars/spark-network-common_2.11-2.1.1.jar:org/apache/spark/unused/UnusedStubClass.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/org.apache.spark/spark-network-shuffle_2.11/jars/spark-network-shuffle_2.11-2.1.1.jar:org/apache/spark/unused/UnusedStubClass.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/org.apache.spark/spark-unsafe_2.11/jars/spark-unsafe_2.11-2.1.1.jar:org/apache/spark/unused/UnusedStubClass.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/org.apache.spark/spark-sql_2.11/jars/spark-sql_2.11-2.1.1.jar:org/apache/spark/unused/UnusedStubClass.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/org.apache.spark/spark-sketch_2.11/jars/spark-sketch_2.11-2.1.1.jar:org/apache/spark/unused/UnusedStubClass.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/org.apache.spark/spark-catalyst_2.11/jars/spark-catalyst_2.11-2.1.1.jar:org/apache/spark/unused/UnusedStubClass.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/org.apache.spark/spark-mllib_2.11/jars/spark-mllib_2.11-2.1.1.jar:org/apache/spark/unused/UnusedStubClass.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/org.apache.spark/spark-streaming_2.11/jars/spark-streaming_2.11-2.1.1.jar:org/apache/spark/unused/UnusedStubClass.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/org.apache.spark/spark-graphx_2.11/jars/spark-graphx_2.11-2.1.1.jar:org/apache/spark/unused/UnusedStubClass.class[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/org.apache.spark/spark-mllib-local_2.11/jars/spark-mllib-local_2.11-2.1.1.jar:org/apache/spark/unused/UnusedStubClass.class[0m
+[0m[[31merror[0m] [0mdeduplicate: different file contents found in the following:[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:overview.html[0m
+[0m[[31merror[0m] [0m/home/jconley/.ivy2/cache/org.codehaus.janino/janino/jars/janino-3.0.0.jar:overview.html[0m
+[0m[[31merror[0m] [0mTotal time: 9 s, completed May 5, 2017 8:41:32 AM[0m

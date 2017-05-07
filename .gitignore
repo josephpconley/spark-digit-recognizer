@@ -1,0 +1,11 @@
+.idea
+counts.txt
+pair.parquet
+target
+*.log
+mainRunner
+neural-net-model
+spark-warehouse
+spark.log
+models
+src/main/resources/*
