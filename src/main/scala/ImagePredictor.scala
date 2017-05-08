@@ -15,11 +15,21 @@ object ImagePredictor extends BaseDriver {
     val sqlContext = spark.sqlContext
     import sqlContext.implicits._
 
-    val fiveResized = Image.fromFile(new File("five-resized.jpg"))
-    val vector = new DenseVector(fiveResized.pixels.map(p => (p.red + p.green + p.blue) / 3.0))
+//    val fiveResized = Image.fromFile(new File("five-resized.jpg"))
+    val front = new File("joe-front.jpg")
+    val img = Image.fromFile(front)
+
+    val stepSize = img.width / 9
+    val vectors = (0 until 9).map { idx =>
+      val score = Image(stepSize, img.height, img.pixels(idx * stepSize, 0, stepSize, img.height))
+        .scaleToWidth(28)
+        .pixels
+
+      InputImage(new DenseVector(score.map(p => (p.red + p.green + p.blue) / 3.0)))
+    }
 
     val model = PipelineModel.load("models/tree-digit-recognizer")
-    val input = spark.createDataFrame(sc.parallelize(Seq(InputImage(vector))))
+    val input = spark.createDataFrame(sc.parallelize(vectors))
 
     val result = model.transform(input)
     result.show()
@@ -30,6 +40,6 @@ object ImagePredictor extends BaseDriver {
       (row.getAs[String]("predictedLabel"), p(0), p(1), p(2), p(3), p(4), p(5), p(6), p(7), p(8), p(9))
     }
 
-    writeToCSV(sc.parallelize(rows).toDF(), "target/five")
+    writeToCSV(sc.parallelize(rows).toDF(), "target/bane-front")
   }
 }

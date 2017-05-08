@@ -8,7 +8,7 @@ Use Spark 2.x to recognize handwritten digits on a standard left-to-right golf s
 - [X] test model against sample score
 - our 67% accurate model thought our 5 was an 8, maybe we should get a better model first?
 - [] use neural net model to improve accuracy
-- [] figure out how to scale your sample's score to 28x28 so the model can interpret it correctly 
+- [X] figure out how to scale your sample's score to 28x28 so the model can interpret it correctly 
 - [] iterate over a few rows of your image and see if we can use the probabilities from the model to do OCR   
 - [] try to use probabilities to parse out rows of numbers
 
@@ -17,6 +17,9 @@ Use Spark 2.x to recognize handwritten digits on a standard left-to-right golf s
 
 ## Maybe
 - [] try to handle top-bottom oriented scorecard
+
+## Questions
+- Why does the decision tree model keep predicting 8's?
 
 ## TODO
 - [] easy way to convert probabilities into array double for writing to CSV

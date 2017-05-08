@@ -16,10 +16,19 @@ object ImageProcessor extends App {
 //
 //  topLeft.output(new File("top-left.jpg"))
 
-  val five = new File("five-small.jpg")
-  val fiveResized = new File("five-resized.jpg")
+//  val five = new File("five-small.jpg")
+//  val fiveResized = new File("five-resized.jpg")
+//
+//  Image.fromFile(five).resizeTo(28, 28).output(fiveResized)
 
-  Image.fromFile(five).resizeTo(28, 28).output(fiveResized)
+  val baneFront = new File("bane-front.jpg")
+  val img = Image.fromFile(baneFront)
+
+  val stepSize = img.width / 9
+  (0 until 9).map { idx =>
+    val score = Image(stepSize, img.height, img.pixels(idx * stepSize, 0, stepSize, img.height))
+    score.scaleToWidth(28).output(new File(s"target/scores/$idx.jpg"))
+  }
 
   def convertToGrayScale(input: File, output: File) = {
     Image.fromFile(input).filter(GrayscaleFilter).output(output)
