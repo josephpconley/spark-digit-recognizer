@@ -1,6 +1,10 @@
 # spark-digit-recognizer
 Use Spark 2.x to recognize handwritten digits on a standard left-to-right golf scorecard
 
+## Blockers
+MNIST uses pixel values [0-255] as white to black and has their background in sharp contrast.  
+My images use pixel values [0-255] black to white, no sharp contrast in background.
+
 ## Initial Steps
 - [X] build a simple decision tree model which will predict handwritten digits from an image (67% accuracy) 
 - [X] take a sample image and convert to greyscale 

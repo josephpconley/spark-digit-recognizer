@@ -31,10 +31,6 @@ object NeuralNetDigitRecognizer extends BaseDriver {
     //input, two hidden layers of 784 and 800, then output
     val layers = Array[Int](features.length, 784, 800, labels.length)
 
-    //TODO what is the default storage level in Spark?
-//    train.persist(org.apache.spark.storage.StorageLevel.MEMORY_ONLY)
-//    test.persist(org.apache.spark.storage.StorageLevel.MEMORY_ONLY)
-
     train.cache()
     test.cache()
 
